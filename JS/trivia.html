@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+    <script>
+        function shuffle(a) {
+            var j, x, i;
+            for (i = a.length - 1; i > 0; i--) {
+                j = Math.floor(Math.random() * (i + 1));
+                x = a[i];
+                a[i] = a[j];
+                a[j] = x;
+            }
+            return a;
+        }
+
+        $(document).ready(function () {
+            var question;
+            var correctAnswer;
+            var incorrectAnswer;
+            $.get("https://opentdb.com/api.php?amount=10&category=20&difficulty=medium", function (data) {
+                for (let x in data.results) {
+                    question += "<h3>" + data.results[x].question + "</h3>";
+                    question += "<a href=#>" + data.results[x].correct_answer + + " " + "</a>";
+                    for (let y in data.results[x].incorrect_answers) {
+                        question += "<a href = #>" + " " + data.results[x].incorrect_answers[y] + "</a>";
+                    }
+                }
+                document.getElementById("p1").innerHTML = question;
+            })
+        })
+    </script>
+
+    <p id="p1"></p>
+
+</body>
+
+</html>
