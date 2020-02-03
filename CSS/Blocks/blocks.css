@@ -1,0 +1,39 @@
+* {
+    background-color: #D4D2AE;
+    margin: 0px;
+    padding: 0px;
+    border: solid 2px pink;
+}
+
+div.container div.header {
+    width: 55%;
+    padding: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+div.container div.header h1 {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 50px;
+
+}
+
+div.header img {
+    height: 85px;
+    width: 120px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+div.blocks img {
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 auto;
+    border: solid 4px black;
+    padding: 5px;
+}

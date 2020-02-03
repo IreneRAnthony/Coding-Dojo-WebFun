@@ -1,0 +1,226 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid pink;
+}
+
+.container {
+    width: 970px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title h1,
+title h2,
+.ad,
+.home,
+.main,
+.footer,
+.title,
+#learn,
+.html,
+.left_sub,
+.sub_header,
+.house,
+.DNS,
+#house,
+.call,
+.phone,
+.info, .main, .big_three{
+    display: inline-block;
+}
+
+.header,
+.buttons button {
+    display: block;
+}
+
+.header,
+.title {
+    width: 96%;
+}
+
+.title img {
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 35px;
+}
+
+.header h1 {
+    font-size: 65px;
+    color: #474747;
+}
+
+.header h2 {
+    color: white;
+    background-image: linear-gradient(#2D6CA2, #5283AD, #2D6CA2);
+    width: 100%;
+    height: 60px;
+    font-size: 40px;
+    padding: 10px;
+
+}
+
+.red {
+    color: #D9281F;
+}
+
+.blue {
+    color: #306CA2;
+}
+
+.home {
+    vertical-align: top;
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+}
+
+.buttons button,
+.ad button,
+.ad p {
+    color: white;
+}
+
+#watch {
+    background-color: #3E7AAE;
+}
+
+#resources {
+    background-color: #EE8920;
+}
+
+.ad {
+    width: 23%;
+}
+
+.ad button {
+    background-color: #3CC8DF;
+    width: 140px;
+    border-radius: 4px;
+    height: 25px;
+    font-size: 12.5px;
+    position: relative;
+    bottom: 200px;
+    right: 60px;
+}
+
+.ad p {
+    position: relative;
+    bottom: 240px;
+    left: 24px;
+    text-align: center;
+    width: 135px;
+    font-size: 20px;
+}
+
+h4,
+h5 {
+    color: #3C73A7;
+    font-size: 25px;
+}
+
+#italic {
+    font-style: italic;
+}
+
+#house {
+    height: 20px;
+}
+
+.buttons button {
+    padding: 12px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.button {
+    padding-bottom: 20px;
+    border-bottom: solid 2px grey;
+}
+
+.main {
+    background-image: linear-gradient(to right, white, #E4E4E4);
+}
+
+#main_img {
+    height: 125px;
+    width: 350px;
+    margin-left: 165px;
+}
+
+.html img {
+    width: 125px;
+    height: 125px;
+}
+
+#background {
+    width: 180px;
+    height: 250px;
+}
+
+#ninja {
+    height: 100px;
+    width: 75px;
+    position: relative;
+    bottom: 235px;
+    left: 52px;
+}
+
+.phone img {
+    height: 55px;
+    width: 55px;
+}
+
+.phone {
+    margin-left: 350px;
+    vertical-align: 10px;
+}
+
+#phone_number {
+    color: #03C0DF;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.left_sub {
+    width: 23%;
+    height: 200px;
+}
+
+.sub_header {
+    width: 100%;
+    vertical-align: top;
+}
+
+.DNS {
+    vertical-align: top;
+}
+
+.footer {
+    width: 65%;
+    border: 4px solid #0085E0;
+    margin-left: 25%;
+    border-bottom: 4px solid white;
+}
+
+.big_three {
+    width: 70%;
+    vertical-align: top;
+    padding-top: 15px;
+}
+
+.call p {
+    font-size: 14px;
+}
+
+.what_is {
+    margin: 15px 0px;
+}
+
+.info {
+    width: 70%;
+}
+
+.info li {
+    margin-left: 40px;
+}
