@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    min-height: 500px;
+    width: 1000px;
+    background-color: bisque;
+    margin: auto;
+    padding: 20px;
+}
+.header img{
+    height: 100px;
+    width: 150px;
+    vertical-align: top;
+}
+.header img, .header h1, .boxes, .boxes-odd{
+    display: inline-block;
+}
+.header{
+    text-align: center;
+}
+.boxes, .boxes-odd{
+    border: solid black 8px;
+    margin: auto;
+    background-color: white;
+}
+.main-content{
+    text-align: center;
+}
+
+.boxes img, .boxes-odd img{
+    height: 150px;
+    width: 150px;
+}
+
+.boxes img{
+    background-color: white;
+    border: rgb(21, 11, 166) 15px solid;
+}
+
+
+.boxes-odd img{
+    background-color: rgb(251, 2, 255);
+    border: rgb(251, 2, 255) 15px solid;
+
+}

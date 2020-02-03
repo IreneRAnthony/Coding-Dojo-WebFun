@@ -1,0 +1,230 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    background-color: #062134;
+    width: 1200px;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.content {
+    width: 97%;
+    height: 90%;
+    margin: auto;
+}
+
+.goal button,
+.content,
+.icon {
+    background-color: white;
+}
+
+.header h1,
+.header ul,
+.header li,
+.about,
+.subs,
+.services,
+.projects,
+.clients,
+.subs p,
+.goal,
+.testimonial,
+.footer,
+.footer li,
+.icon,
+.subs h2,
+.subs h3,
+.subs h4,
+.world img,
+.world,
+.about_headers,
+.about_headers h5,
+.about_headers h6 {
+    display: inline-block;
+}
+
+.header h1,
+.subs h2,
+.subs h3,
+.subs h4,
+.about_headers h5,
+.about_headers h6 {
+    font-weight: lighter;
+}
+
+.headers {
+    width: 100%;
+}
+
+.header h1 {
+    margin: 20px 0px 20px 25px;
+}
+
+.header h1,
+.header ul,
+.subs,
+.subs button {
+    color: white;
+}
+
+.header {
+    background-color: #062134;
+    width: 100%;
+}
+
+.header ul {
+    list-style-type: none;
+    vertical-align: 1px;
+    margin-left: 200px;
+    font-size: 17px;
+}
+
+.header li {
+    margin-left: 50px;
+}
+
+.lit_blue {
+    color: #1B98E6;
+}
+
+.main_img {
+    width: 97%;
+    margin: 25px 10px 20px 20px;
+}
+
+.about {
+    color: black;
+    width: 100%;
+}
+
+.navy {
+    color: #255375;
+}
+
+.subs {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.services,
+.clients,
+.projects {
+    width: 350px;
+    background-color: #1468A8;
+    padding-bottom: 15px;
+    margin: 0px 16px;
+}
+
+.subs button {
+    padding: 10px;
+    background-color: #1991DC;
+    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.5) 51%);
+    text-align: center;
+    border-radius: 4px;
+    width: 150px;
+    font-size: 17px;
+    margin: 0px 0px 5px 20px;
+}
+
+.subs h2,
+.subs h3,
+.subs h4 {
+    font-size: 30px;
+    vertical-align: 60%;
+}
+
+.subs p {
+    height: 150px;
+    margin: 0px 18px;
+    font-size: 12.5px;
+}
+
+.about {
+    margin-bottom: 25px;
+    margin-left: 15px;
+}
+
+.about img {
+    height: 180px;
+    width: 350px;
+}
+
+.about p {
+    margin-bottom: 10px;
+}
+
+.goal p {
+    font-size: 13px;
+}
+
+.goal button {
+    color: #618EAE;
+    font-size: 20px;
+    border: 2px solid white;
+}
+
+.pale_blue {
+    color: #B2D6F3;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.about_headers {
+    width: 100%;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.about_headers h5,
+.about_headers h6 {
+    width: 32%;
+    font-size: 25px;
+    height: 40px;
+}
+
+.about_headers h6 {
+    margin-left: 365px
+}
+
+.world,
+.goal,
+.testimonial {
+    width: 30%;
+    margin: 0px 10px;
+    vertical-align: top;
+}
+
+.footer {
+    width: 100%;
+    border: solid black 1px;
+    background-color: #DAEDFF;
+    color: #5084A9;
+    height: 45px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.footer li {
+    margin-left: 30px;
+    font-size: 12.5px;
+}
+
+#blue_speech {
+    background-color: #DAEDFF;
+    border-radius: 1px;
+    font-style: italic;
+    padding: 20px 30px 50px 30px;
+}
+
+#manager {
+    font-size: 14px;
+}

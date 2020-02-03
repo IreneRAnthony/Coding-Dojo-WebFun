@@ -1,0 +1,76 @@
+body {
+    background-color: darkslateblue;
+}
+
+#title {
+    background-color: #C11B17;
+    font: Serif, Georgia;
+    font-size: 40px;
+    font-weight: bold;
+    color: #FDEEF4;
+    height: 45px;
+    border-radius: 25px;
+    text-align: left;
+    display: block;
+    margin: 15px;
+    padding: 35px;
+}
+
+#nav {
+    background-color: mediumaquamarine;
+    font: Times, Georgia;
+    text-decoration: underline;
+    color: white;
+    border-radius: 25px;
+    display: inline-block;
+    height: 250px;
+    width: 18%;
+    text-align: left;
+    vertical-align: top;
+    margin-right: 10px;
+}
+
+#main {
+    background-color: midnightblue;
+    color: white;
+    border-radius: 25px;
+    display: inline-block;
+    text-align: center;
+    width: 80%;
+    padding: 5px;
+}
+
+.highlight {
+    color: blue;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
+#footer {
+    background-color: slategray;
+    border-radius: 25px;
+    color: white;
+    display: block;
+    text-align: left;
+    padding: 5px;
+    margin: 5px;
+}
+
+ul.circle {
+    list-style-type: circle;
+}
+
+#main-title {
+    font-weight: bold;
+    font: Serif, Times;
+}
+
+.no-underline {
+    font-display: none;
+}
+
+#home{
+    text-align: center;
+}
